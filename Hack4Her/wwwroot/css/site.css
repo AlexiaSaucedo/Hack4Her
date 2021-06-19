@@ -1,19 +1,37 @@
 ﻿* {
     position: relative;
     margin: 0;
+    font-family: "Raleway";
 }
 
 main {
     min-height: 100%;
-    background-color: rgb(225, 201, 232) !important;
+}
+
+nav {
+    background-color: rgb(72, 77, 83) !important;
 }
 
 div.index {
-    border: black solid 3px;
+    border: solid white 10px;
+    border-radius: 30px;
 }
 
+div.main1 {
+    background-color: rgb(216, 0, 88) !important;
+}
 
+div.main2 {
+    background-color: rgb(236, 192, 0) !important;
+}
 
+div.main3 {
+    background-color: rgb(77, 71, 198) !important;
+}
+
+div.main4 {
+    background-color: rgb(150, 58, 182) !important;
+}
 a.navbar-brand {
     white-space: normal;
     text-align: center;
@@ -32,7 +50,19 @@ a {
 }
 
 .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
-    color: #fff;
+    color: #aaaaaa;
     background-color: #1b6ec2;
     border-color: #1861ac;
+}
+
+#learn-pos {
+    border: solid white 10px !important;
+    background-color: rgb(101, 193, 61) !important;
+    border-radius: 20px;
+}
+
+#learn-neg {
+    border: solid white 10px !important;
+    background-color: rgb(238, 64, 51) !important;
+    border-radius: 20px;
 }
