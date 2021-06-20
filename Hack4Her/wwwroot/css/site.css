@@ -2,6 +2,7 @@
     position: relative;
     margin: 0;
     font-family: "Raleway";
+    color: white;
 }
 
 main {
@@ -57,12 +58,12 @@ a {
 
 #learn-pos {
     border: solid white 10px !important;
-    background-color: rgb(101, 193, 61) !important;
+    background-color: rgb(81, 183, 51) !important;
     border-radius: 20px;
 }
 
 #learn-neg {
     border: solid white 10px !important;
-    background-color: rgb(238, 64, 51) !important;
+    background-color: rgb(228, 54, 41) !important;
     border-radius: 20px;
 }
